@@ -9,7 +9,7 @@ html{
 body{
   margin: 0;
   padding: 0;
-  background-color: aliceblue;
+  background-color: rgb(245, 247, 248);
   overflow-x: hidden;
   font-family: "Vazirmatn", sans-serif;
   font-optical-sizing: auto;

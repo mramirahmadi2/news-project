@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Layout from "@/Layout/layout"
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -19,8 +19,13 @@ export default function RootLayout({
     <html lang="fn">
       <head>
          <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet"></link>
+             
+          <script
+               type="text/javascript"
+                  src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
       </head>
-      <body className={inter.className} dir="rtl">
+      <body  dir="rtl">
+
        <main>
          <Layout>
           {children}
