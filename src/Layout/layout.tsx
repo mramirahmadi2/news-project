@@ -3,7 +3,7 @@ import Header from "./Header/page"
 import Footer from "./Footer/page"
 const layout = ({children}:{children:any}) => {
   return (
-    <div className='flex flex-col justify-between'>
+    <div className='flex flex-col w-full h-full justify-between'>
         <Header/>
          <div className=''>{children}</div>
         <Footer/>

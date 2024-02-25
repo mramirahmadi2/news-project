@@ -36,7 +36,7 @@ const page = () => {
             </ul>
           </div>
         </div> */}
-        <div className="flex-none max-w-7xl mx-auto text-center border-t-2 border-b-2">
+        <div className="md:flex-none hidden max-w-7xl mx-auto text-center border-t-2 border-b-2">
            <ul className="menu menu-horizontal px-1">
           {/* <li><a>Link</a></li> */}
           {/* <li>
